@@ -8,12 +8,17 @@ function copyFolders() {
   let  folderCopy = masterFolder.createFolder(originFolder.getName() + "3");
   let idFolderCopy = folderCopy.getId();
   
-  // Obtiene los archivos de la carpeta origen y los copia a la nueva carpeta
+  // Obtiene los archivos de la carpeta origen y los copia a la nueva carpeta 
   let originFiles = originFolder.getFiles();
   while(originFiles.hasNext()) {
-    let nowFile = originFiles.next();
+   let nowFile = originFiles.next();
     let copyFile = nowFile.makeCopy();
     copyFile.setName(nowFile.getName() + "3");
     copyFile.moveTo(folderCopy);
   }
 }
+
+
+
+
+
