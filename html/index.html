@@ -17,7 +17,7 @@
   <!-- Permite posicionamiento-->
 </head>
 
-<body>
+<body style="font-family: sans-serif;">
   <h1>ALL THOSE MY FIRST STEPS</h1>
   <h2>HTML</h2>
   <p>
@@ -28,19 +28,14 @@
   </p>
   <ol>
     <li>
-      <details>
+      <details> 
         <summary> Raiz principal </summary> Lo que va en la linea 1 y 2
         <ul>
-          <li>
-            <summary><mark><code>&lt;!DOCTYPE html&gt;</code></mark> <u>El elemento HTML (o elemento HTML raiz)
-                representa la raiz de
-                un
-                documento HTML. El resto de elementos descienden de este elemento.</u> </summary>
-            <summary><mark><code>&lt;html lang="es"&gt;</code></mark> <u>Tema de lenguaje, no ha de ir en metadatos sino
-                abajo de la
-                etiqueta HTML</u></summary>
+          <li> 
+            <summary> <mark> <code> &lt;!DOCTYPE html&gt; </code></mark> El elemento HTML (o elemento HTML raiz) representa la raiz de un documento HTML. El resto de elementos descienden de este elemento. </summary> <br>
+            <summary><mark><code>&lt;html lang="es"&gt;</code></mark> Tema de lenguaje, no ha de ir en metadatos sino abajo de la etiqueta HTML</summary>
       </details>
-    </li>
+    </li> <hr>
     <!-- SALTO -->
     <li>
       <details>
@@ -48,48 +43,38 @@
         solo van datos meta sino otros.
         <ul>
           <li>
-            <summary><mark><code>&lt;head&gt;</code></mark><u> Inicia el encabezado del documento</u></summary>
+            <summary><mark><code>&lt;head&gt;</code></mark> Inicia el encabezado del documento </summary> <br>
           </li>
           <li>
-            <summary><mark><code>&lt;meta charset="UTF-8"&gt;</code></mark><u> Tema de control decodificación de
-                caracteres</u>
-            </summary>
+            <summary><mark><code>&lt;meta charset="UTF-8"&gt;</code></mark>  Tema de control decodificación de caracteres </summary> <br>
           </li>
           <li>
-            <summary>
-              <mark><code>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"/&gt;</code></mark><u>
-                Temas de renderización a diversos dispositivos </u>
-            </summary>
+            <summary> <mark><code>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"/&gt;</code></mark> Temas de renderización a diversos dispositivos </summary> <br>
           </li>
           <li>
-            <summary><mark><code>&lt;title>BLA,BLA,BLA&lt;/title&gt;</code></mark><u> El titulo que se mostrará en la
-                pestaña y buscadores, entre 55 y 65 caracteres, tambien influye en el posicionamiento</u></summary>
+            <summary><mark><code>&lt;title>BLA,BLA,BLA&lt;/title&gt;</code></mark> El titulo que se mostrará en la pestaña y buscadores, entre 55 y 65 caracteres, tambien influye en el posicionamiento la unica que se ve en barra titulo</summary> <br>
           </li>
           <li>
-            <summary><mark><code>&lt;meta name="description" content="resumen"&gt;</code></mark><u>  Potencializa el
-                posicionamiento el description entre 150 y 165 palabras, si se tiene secciones dentro del proyecto cada sección con su descripción</u> </summary>
+            <summary><mark><code>&lt;meta name="description" content="resumen"&gt;</code></mark>  Potencializa el
+                posicionamiento el description entre 150 y 165 palabras, si se tiene secciones dentro del proyecto cada sección con su descripción</u> </summary> <br>
           </li>
           <li>
-            <summary><mark><code>&lt;link rel="icon" href="https:.....png" sizes="95x95"/&gt;</code></mark><u> El
-                favicon es el icono que se muestra en la pag, en la pestaña</u> </summary>
+            <summary><mark><code>&lt;link rel="icon" href="https:.....png" sizes="95x95"/&gt;</code></mark> El
+                favicon es el icono que se muestra en la pag, en la pestaña </summary> <br>
           </li>
           <li>
-            <summary><mark><code>&lt;link rel="stylesheet" href="styles.css"&gt;</code></mark><u>Este enlace carga un
-                archivo
-                CSS para aplicar estilos a la página</u></summary>
+            <summary><mark><code>&lt;link rel="stylesheet" href="styles.css"&gt;</code></mark> Este enlace carga un archivo CSS para aplicar estilos a la página </summary> <br>
           </li>
           <li>
-            <summary><mark><code>&lt;script src="script.js"&gt;&lt;/script&gt;</code></mark><u>Esta referencia carga un
-                archivo
-                de script JavaScript</u></summary>
+            <summary><mark><code>&lt;script src="script.js"&gt;&lt;/script&gt;</code></mark> Esta referencia carga un archivo de script JavaScript </summary> <br>
           </li>
           <li>
-            <summary><mark><code>&lt;/head&gt;</code></mark><u> Cierre de cabecera</u> </summary>
+            <summary><mark><code>&lt;/head&gt;</code></mark> Cierre de cabecera </summary> <br>
           </li>
         </ul>
       </details>
-    </li>
-    <!-- SALTO -->
+    </li> <hr>
+    <!-- SALTO SELECCIONAMIENTO BÁSICO -->
     <li>
       <details>
         <summary> Seccionamiento básico</summary> <b> Estructura y organización básica de una página web utilizando
@@ -98,96 +83,83 @@
         documento HTML. Solo puede haber un elemento &lt;body&gt; en todo el doc . <br>
         En general todo lo visible va en esta etiqueta body con su apertura y cierre dentro de... </mark>
       </details>
-    </li>
+    </li> <hr>
 <!-- SALTO -->
     <li>
       <details>
-        <summary>Seccionamiento del contenido</summary> <b>Dividir y organizar el contenido de una página web en
-          secciones lógicas y significativas utilizando etiquetas HTML apropiadas.</b>
+        <summary>Seccionamiento del contenido / estructura semántica </summary> <b>Dividir y organizar el contenido de una página web en
+          secciones lógicas y significativas utilizando etiquetas HTML apropiadas. TEMA MUY CONEXO A MAQUETACIÓN</b>
         <ul>
-          <summary><code>&lt;adres&gt;</code> <u>Aporta información de contacto para su &lt;article&gt; más cercano o
-              ancestro &lt;body&gt; en el último caso lo aplica a todo el documento.</u> </summary>
-          <summary><code>&lt;article&gt;</code> <u>Pedazo de codigo a reutilizar .</u> </summary>
-          <summary><code>&lt;aside&gt;</code> <u>Sección de una página que consiste en contenido que está indirectamente
-              relacionado con el contenido principal del documento.</u> </summary>
-          <summary><code>&lt;footer&gt;</code> <u>Pie de página para el contenido de sección más cercano o el elemento
-              raíz de sección </u> </summary>
-          <summary><code>&lt;header&gt;</code> <u>grupo de ayudas introductorias o de navegación. Cabeceras </u> </summary>
-          <summary><mark><code>&lt;h1&gt;,&lt;h2&gt;&lt;h3&gt;,&lt;h4&gt;,&lt;h5&gt;,&lt;h6&gt;</code> </mark>
-            <u>Titulos, encabezados por nivel</u>
-          </summary>
-          <summary><code>&lt;main&gt;</code> <u>contenido principal del &lt;body&gt; de un documento o aplicación</u>
-          </summary>
-          <summary><mark><code>&lt;nav&gt;</code></mark> <u> Sección con enlaces de navegación, internos o externos.</u>
-          </summary>
-          <summary><code>&lt;section&gt;</code> <u> Representa una sección genérica de un documento. Muy parecido al
-              &lt;div&gt; pero en menor nivel </u> </summary>
-        </ul>
-      </details>
-    </li>
+          <summary><code>&lt;adres&gt;</code> Aporta información de contact o direcciones.</summary> <br>
+          <summary><code>&lt;article&gt;</code> Pedazo de codigo a reutilizar. Sección autocontenida.  </summary> <br>
+          <summary><code>&lt;aside&gt;</code> Sección de una página que consiste en contenido que está indirectamente relacionado con el contenido principal del documento. Contenido secundario. </summary> <br>
+          <summary><code>&lt;footer&gt;</code> Pie de página para el contenido de sección más cercano o el elemento raíz de sección. </summary> <br>
+          <summary><code>&lt;header&gt;</code> grupo de ayudas introductorias o de navegación. Cabeceras </summary> <br>
+          <summary><mark><code>&lt;h1&gt;,&lt;h2&gt;&lt;h3&gt;,&lt;h4&gt;,&lt;h5&gt;,&lt;h6&gt;</code> </mark> Encabezados deja titularizar. Los niveles con jerarquias. Tambien CO Un solo. Solo 1 H1 <code>&lt;h1&gt;</code>. </summary> <br>
+          <summary><code>&lt;main&gt;</code> contenido principal del &lt;body&gt; de un documento o aplicación, SOLO 1 MAIN  </summary> <br>
+          <summary><mark><code>&lt;nav&gt;</code></mark>  Sección con enlaces de navegación, internos o externos. </summary> <br>
+          <summary><code>&lt;section&gt;</code> Representa una sección genérica de un documento. Muy parecido al &lt;div&gt; pero en menor nivel </summary> <br> 
+          </details>
+    </li> <hr>
 <!-- SALTO -->
     <li>
       <details>
         <summary> Contenido del texto </summary> Para organizar bloques o secciones de contenido
         <ul>
-          <summary><code>&lt;dl&gt;</code> <u>es una definición esta asociado con una lista descriptiva se relaciona dd.
-              Lista de description</u> </summary>
-          <summary><code>&lt;dt&gt;</code> <u>término en una descripción o lista de definiciones Definición Term.</u>
-          </summary>
-          <summary><code>&lt;dd&gt;</code> <u>provee detalles acerca de o la definición de un término precedente en dt
-              (tabula) Definición description </u> </summary>
-          <summary><code>&lt;blockquote&gt;</code> <u>citas en bloque </u> </summary>
-          <summary><code>&lt;div&gt;</code> <u>Secciones o contenidos</u> </summary>
-          <summary><code>&lt;figcaption&gt;</code> <u>Subtitulo de una figura.</u> </summary>
-          <summary><code>&lt;figure&gt;</code> <u>Marco de una figura, incluye origen, tamaño, texto alternativo, etc
-            </u> </summary>
-          <summary><code>&lt;hr&gt;</code> <u>Cambio de tema con una -</u> </summary>
-          <summary><code>&lt;li&gt;</code> <u>Lista la etiqueta de cierre opcional</u> </summary>
-          <summary><code>&lt;menu&gt;</code> <u>Lista desordenada de elementos con elementos li, muy parecido a ul </u>
-          </summary>
-          <summary><code>&lt;ol&gt;</code> <u>“Ordered List” - Lista Ordenada </u> </summary>
-          <summary><code>&lt;pre&gt;</code> <u>Parrafo, la etiqueta de cierre es opcional</u> </summary>
-          <summary><code>&lt;ul&gt;</code> <u>UNorderd List - Lista no ordenada </u> </summary>
+          <summary><code>&lt;dl&gt;</code> Es una definición esta asociado con una lista descriptiva se relaciona dd. </summary> <br>
+          <summary><code>&lt;dt&gt;</code> Término en una descripción o lista de definiciones Definición Term. </summary> <br>
+          <summary> <u><code>&lt;dd&gt;</code></u> Provee detalles acerca de o la definición de un término precedente en dt (tabula) Definición description </summary> <br>
+          <summary><code>&lt;blockquote&gt;</code> Citas en bloque se ven como cita, combinar con cite genera todo ese contenido   </summary> <br> 
+          <summary><code>&lt;div&gt;</code> Secciones o contenidos, etiqueta por excelencia, genera saltos de linea. VER SPAN </summary> <br>
+          <summary><code>&lt;figcaption&gt;</code> Subtitulo de una figura. </summary> <br> 
+          <summary><code>&lt;figure&gt;</code> Marco de una figura, incluye origen, tamaño, texto alternativo, etc </summary> <br>
+          <summary><code>&lt;hr&gt;</code> Línea horizontal salto semantico de contenido </summary> <br>
+          <summary><code>&lt;li&gt;</code> Lista la etiqueta de cierre opcional </summary>
+          <summary><code>&lt;menu&gt;</code> Lista desordenada de elementos con elementos li, muy parecido a ul </summary>
+          <summary><code>&lt;ol&gt;</code> “Ordered List” - Lista Ordenada  </summary> <br>
+          <summary><code>&lt;p&gt;</code> Parrafo. Texto en forma de parrafo, margenes.  </summary> <br>
+          <summary><code>&lt;pre&gt;</code> Permite escribir en linea desde el editor, cambia la letra</summary> <br>
+          <summary><code>&lt;ul&gt;</code> UNorderd List - Lista no ordenada </summary> <br>
         </ul>
       </details>
-    </li>
+    </li> <hr>
 <!-- SALTO -->
     <li>
       <details>
         <summary> Semántica del texto en línea </summary> significado, estructura, o el estilo de una palabra, una línea o cualquier pieza arbitraria de texto.
         <ul>
-          <summary><code>&lt;a&gt;</code> <u>enlaces a otras pags</u> </summary>
-          <summary><code>&lt;abbr&gt;</code> <u>abrebiaciones</u> </summary>
-          <summary><code>&lt;b&gt;</code> <u>negrita</u> </summary>
-          <summary><code>&lt;bdi&gt;</code> <u>Secciones o contenidos</u> </summary>
-          <summary><code>&lt;bdo&gt;</code> <u>Secciones o contenidos</u> </summary>
-          <summary><code>&lt;br&gt;</code> <u>salto de linea</u> </summary>
-          <summary><code>&lt;cite&gt;</code> <u>Secciones o contenidos</u> </summary>
-          <summary><code>&lt;code&gt;</code> <u>mnostrar en formato de codigo </u> </summary>
-          <summary><code>&lt;data&gt;</code> <u>Secciones o contenidos</u> </summary>
-          <summary><code>&lt;dfn&gt;</code> <u>Secciones o contenidos</u> </summary>
-          <summary><code>&lt;em&gt;</code> <u>enfasis </u> </summary>
-          <summary><code>&lt;i|&gt;</code> <u>Secciones o contenidos</u> </summary>
-          <summary><code>&lt;kbd&gt;</code> <u>Secciones o contenidos</u> </summary>
-          <summary><code>&lt;mark&gt;</code> <u>reslta</u> </summary>
-          <summary><code>&lt;q&gt;</code> <u>cita</u> </summary>
-          <summary><code>&lt;rp👁️‍🗨️&gt;</code> <u>Secciones o contenidos</u> </summary>
-          <summary><code>&lt;rt&gt;</code> <u>Secciones o contenidos</u> </summary>
-          <summary><code>&lt;ruby&gt;</code> <u>Secciones o contenidos</u> </summary>
-          <summary><code>&lt;s&gt;</code> <u>Secciones o contenidos</u> </summary>
-          <summary><code>&lt;samp&gt;</code> <u>Secciones o contenidos</u> </summary>
-          <summary><code>&lt;small&gt;</code> <u>pequeño</u> </summary>
-          <summary><code>&lt;span&gt;</code> <u>Secciones o contenidos</u> </summary>
-          <summary><code>&lt;strong&gt;</code> <u>enfasis</u> </summary>
-          <summary><code>&lt;sub&gt;</code> <u>subindice</u> </summary>
-          <summary><code>&lt;sup&gt;</code> <u>potencias</u> </summary>
-          <summary><code>&lt;time&gt;</code> <u>periodo de tiempo</u> </summary>
-          <summary><code>&lt;u&gt;</code> <u>Secciones o contenidos</u> </summary>
-          <summary><code>&lt;var&gt;</code> <u>Secciones o contenidos</u> </summary>
-          <summary><code>&lt;wbr&gt;</code> <u>Secciones o contenidos</u> </summary>
+          <summary><code>&lt;a&gt;</code> enlaces a otras pags </summary> <br>
+          <summary><code>&lt;abbr&gt;</code> abrebiaciones </summary> <br>
+          <summary><code>&lt;b&gt;</code> Negrita <b>NEGRITA ASÍ </b> </summary> <br>
+          <summary><code>&lt;bdi&gt;</code> Secciones o contenidos </summary> <br>
+          <summary><code>&lt;bdo&gt;</code> Secciones o contenidos </summary> <br>
+          <summary><code>&lt;br&gt;</code> Salto de linea. UN SOLO TAG, NO NECESITA CIERRE </summary> <br>
+          <summary><code>&lt;cite&gt;</code> Secciones o contenidos </summary> <br>
+          <summary><code>&lt;code&gt;</code> mostrar en formato de codigo  </summary> <br>
+          <summary><code>&lt;data&gt;</code> Secciones o contenidos </summary> <br>
+          <summary><code>&lt;dfn&gt;</code> Secciones o contenidos </summary> <br>
+          <summary><code>&lt;em&gt;</code> enfasis texto que hace enfasis.  </summary> <br>
+          <summary><code>&lt;i&gt;</code> cursiva <i>cursiva </i> </summary> <br>
+          <summary><code>&lt;kbd&gt;</code> Secciones o contenidos </summary> <br>
+          <summary><code>&lt;mark&gt;</code> Resalta <mark> ASI </mark>  </summary> <br>
+          <summary><code>&lt;q&gt;</code> cita </summary> <br>
+          <summary><code>&lt;rp👁️‍🗨️&gt;</code> Secciones o contenidos </summary> <br>
+          <summary><code>&lt;rt&gt;</code> Secciones o contenidos </summary> <br>
+          <summary><code>&lt;ruby&gt;</code> Secciones o contenidos </summary> <br>
+          <summary><code>&lt;s&gt;</code> Secciones o contenidos </summary> <br>
+          <summary><code>&lt;samp&gt;</code> Secciones o contenidos </summary> <br>
+          <summary><code>&lt;small&gt;</code> Letra pequeña  </summary> <br>
+          <summary><code>&lt;span&gt;</code>  Secciones de bloque genererico en linea. Solo ocupa el espacio de su contenido VER DIV  </summary> <br>
+          <summary><code>&lt;strong&gt;</code> enfasis, entonación etiqueta semantica  </summary> <br>
+          <summary><code>&lt;sub&gt;</code> subindice  </summary> <br>
+          <summary><code>&lt;sup&gt;</code> potencias H<sup>2</sup>O </summary> <br>
+          <summary><code>&lt;time&gt;</code> periodo de tiempo </summary> <br>
+          <summary><code>&lt;u&gt;</code>  Subrayado pero se recomienda más con scc  </summary> <br>
+          <summary><code>&lt;var&gt;</code>  Secciones o contenidos  </summary> <br>
+          <summary><code>&lt;wbr&gt;</code>  Secciones o contenidos  </summary> <br>
         </ul>
       </details>
-    </li>
+    </li> <hr>
 <!-- SALTO -->
     <li>
       <details>
@@ -201,7 +173,7 @@
           <summary><code>&lt;video&gt;</code> <u>Secciones o contenidos</u> </summary>
         </ul>
       </details>
-    </li>
+    </li> <hr>
 <!-- SALTO -->
     <li>
       <details>
@@ -215,7 +187,7 @@
           <summary><code>&lt;source&gt;</code> <u>recursos multimedia <code>&lt;picture&gt;</code>, <code>&lt;audio&gt;</code> o <code>&lt;video&gt;</code> </u> </summary>
         </ul>
       </details>
-    </li>
+    </li> <hr>
 <!-- SALTO-->
     <li>
       <details>
@@ -225,7 +197,7 @@
           <summary><code>&lt;math&gt;</code> <u>Secciones o contenidos</u> </summary>
         </ul>
       </details>
-    </li>
+    </li> <hr>
 <!-- SALTO-->
     <li>
       <details>
@@ -236,7 +208,7 @@
           <summary><code>&lt;script&gt;</code> <u>incrustar codigo ejecutable, puede ser js</u> </summary>
         </ul>
       </details>
-    </li>
+    </li> <hr>
 <!-- SALTO-->
 <li>
   <details>
@@ -246,7 +218,7 @@
       <summary><code>&lt;ins&gt;</code> <u>Secciones o contenidos</u> </summary>
     </ul>
   </details>
-</li>
+</li> <hr>
 <!-- SALTO-->
 <li>
   <details>
@@ -264,7 +236,7 @@
       <summary><code>&lt;tr&gt;</code> <u>Secciones o contenidos</u> </summary>
     </ul>
   </details>
-</li>
+</li> <hr>
 <!-- SALTO-->
 <li>
   <details>
@@ -286,28 +258,42 @@
       <summary><code>&lt;textarea&gt;</code> <u>edución multililnea de texto sin formato</u> </summary>
     </ul>
   </details>
-</li>
+</li> <hr>
 <!-- SALTO-->
 <li>
   <details>
     <summary>Elementos Interactivos </summary> XXXXXXXXXXX
     <ul>
-      <summary><code>&lt;details&gt;</code> <u>Un tipo de widget</u> </summary>
-      <summary><code>&lt;dialog&gt;</code> <u>Como tipo de caja de dialogo</u> </summary>
-      <summary><code>&lt;summary&gt;</code> <u>Resumen, titulo y leyenda </u> </summary>
+      <summary><code>&lt;details&gt;</code> Un tipo de widget PORQUE SALE RAYADO? </summary> <br>
+      <summary><code>&lt;dialog&gt;</code> Como tipo de caja de dialogo </summary> <br>
+      <summary><code>&lt;summary&gt;</code> ACORDEOON  </summary> <br>
     </ul>
   </details>
-</li>
+</li> <hr>
 <!-- SALTO-->
 <li>
   <details>
     <summary>Componentes WEB </summary> tecnología relacionada con HTML que hacen que sea posible, en esencia, crear y personalizar elementos como si fueran HTML normal.
     <ul>
-      <summary><code>&lt;slot&gt;</code> <u>placeholder en un componente que tu puedes llenar con tu propio marcado,</u> </summary>
-      <summary><code>&lt;Template&gt;</code> <u>mecanismo para mantener el contenido HTML del lado del cliente que no se renderiza cuando se carga una página, pero que posteriormente puede ser instanciado </u> </summary>
+      <summary><code>&lt;slot&gt;</code> placeholder en un componente que tu puedes llenar con tu propio marcado,</summary> 
+    </li> <br>  
+    <summary><code>&lt;Template&gt;</code> mecanismo para mantener el contenido HTML del lado del cliente que no se renderiza cuando se carga una página, pero que posteriormente puede ser instanciado  </summary> <hr>
+  </ul>
+</details>
+</li> <hr> 
+
+<!-- SALTO-->
+<li>
+  <details>
+    <summary>Styles CSS en HTML 3 formas </summary> XXXXXXXXXXX
+    <ul>
+      <summary> <b> dando atributos al tag style= </b> style = " color fondo, color letra, tamaño, tipo, fuente, alineación, epaciado, margen, para tags como NO MANERA MÁS EFICIENTE " </summary> <br>
+      <summary> <b> En head se abre etiqueta style </b> LIBRERIAS se van marcando etiquetas por etiquetas pero marca todas las etiquetas </summary> <br>
+      <summary> <b> Mediente hoja CSS  </b> se enlaza en el head con tag link rel = "stylesheets" href="./DIR" </summary> <br>
     </ul>
   </details>
-</li>
+</li> <hr>
+<!-- SALTO-->
 
   </ol>
 
