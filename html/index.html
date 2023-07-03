@@ -106,20 +106,20 @@
       <details>
         <summary> Contenido del texto </summary> Para organizar bloques o secciones de contenido
         <ul>
-          <summary><code>&lt;dl&gt;</code> Es una definición esta asociado con una lista descriptiva se relaciona dd. </summary> <br>
+          <summary><code>&lt;dl&gt;</code> Es una definición esta asociado con una lista descriptiva se relaciona dd. GLOSARIO DE TERMINOS. 3 etiquetas. dt para definir el termino, dd la definición del dato  </summary> <br>
           <summary><code>&lt;dt&gt;</code> Término en una descripción o lista de definiciones Definición Term. </summary> <br>
           <summary> <u><code>&lt;dd&gt;</code></u> Provee detalles acerca de o la definición de un término precedente en dt (tabula) Definición description </summary> <br>
           <summary><code>&lt;blockquote&gt;</code> Citas en bloque se ven como cita, combinar con cite genera todo ese contenido   </summary> <br> 
           <summary><code>&lt;div&gt;</code> Secciones o contenidos, etiqueta por excelencia, genera saltos de linea. VER SPAN </summary> <br>
           <summary><code>&lt;figcaption&gt;</code> Subtitulo de una figura. </summary> <br> 
-          <summary><code>&lt;figure&gt;</code> Marco de una figura, incluye origen, tamaño, texto alternativo, etc </summary> <br>
+          <summary><code>&lt;figure&gt;</code> Marco de una figura, incluye origen, tamaño, texto alternativo, etc. Para poner el caption figcaption dentro del tag  </summary> <br>
           <summary><code>&lt;hr&gt;</code> Línea horizontal salto semantico de contenido </summary> <br>
           <summary><code>&lt;li&gt;</code> Lista la etiqueta de cierre opcional </summary>
           <summary><code>&lt;menu&gt;</code> Lista desordenada de elementos con elementos li, muy parecido a ul </summary>
-          <summary><code>&lt;ol&gt;</code> “Ordered List” - Lista Ordenada  </summary> <br>
+          <summary><code>&lt;ol&gt;</code> “Ordered List” - Lista Ordenada , siemrpe van dentro los tag li, start para poner No inicio, reversed para alrevez, con type muestra el tipo de num </summary> <br>
           <summary><code>&lt;p&gt;</code> Parrafo. Texto en forma de parrafo, margenes.  </summary> <br>
           <summary><code>&lt;pre&gt;</code> Permite escribir en linea desde el editor, cambia la letra</summary> <br>
-          <summary><code>&lt;ul&gt;</code> UNorderd List - Lista no ordenada </summary> <br>
+          <summary><code>&lt;ul&gt;</code> UNorderd List - Lista no ordenada, lleva puntos. con type te das tipos de viñeta, scuare, circle. Title un cuadradito con el nomnbre </summary> <br>
         </ul>
       </details>
     </li> <hr>
@@ -128,7 +128,10 @@
       <details>
         <summary> Semántica del texto en línea </summary> significado, estructura, o el estilo de una palabra, una línea o cualquier pieza arbitraria de texto.
         <ul>
-          <summary><code>&lt;a&gt;</code> enlaces a otras pags </summary> <br>
+          <summary><code>&lt;a&gt;</code> enlaces a otras pags href para el source para abrir en nueva  pesataña < a href = " bbbb" => , con target ="_blanck", rel="nofollow" para sitios no relacionados, si dentro dejas una img te hace la img como hipervinculo. <br>
+          Para hacer navegación interna, emoji 😉 o texto. tabla para asociar los items a a donde ir se debe dar nombre como id, no agenos al ingles ni espacios a href = "lugar#ADondeVa". <br>  
+          con css agregado al html scroll-behavior: smooth hace que se vea más fluido el desplazamiento y no como si apareciera
+        </summary> <br>
           <summary><code>&lt;abbr&gt;</code> abrebiaciones </summary> <br>
           <summary><code>&lt;b&gt;</code> Negrita <b>NEGRITA ASÍ </b> </summary> <br>
           <summary><code>&lt;bdi&gt;</code> Secciones o contenidos </summary> <br>
@@ -167,7 +170,7 @@
         <ul>
           <summary><code>&lt;area&gt;</code> <u>Secciones o contenidos</u> </summary>
           <summary><code>&lt;audio&gt;</code> <u>Secciones o contenidos</u> </summary>
-          <summary><code>&lt;img&gt;</code> <u> en un solo tag < img src=" alt=texto descriptivo</u> </summary>
+          <summary><code>&lt;img&gt;</code> <u> en un solo tag < img src=" alt=texto descriptivo acepta formartos png, svg, etc. LOs estilos recomendado desde CSS </u> </summary>
           <summary><code>&lt;map&gt;</code> <u>Secciones o contenidos</u> </summary>
           <summary><code>&lt;track&gt;</code> <u>Secciones o contenidos</u> </summary>
           <summary><code>&lt;video&gt;</code> <u>Secciones o contenidos</u> </summary>
@@ -179,12 +182,12 @@
       <details>
         <summary>Contenido Incrustado</summary> XXXXXXXXXXX
         <ul>
-          <summary><code>&lt;embed&gt;</code> <u>plug-in</u> </summary>
-          <summary><code>&lt;iframe&gt;</code> <u>Secciones o contenidos</u> </summary>
-          <summary><code>&lt;object&gt;</code> <u>Secciones o contenidos</u> </summary>
-          <summary><code>&lt;picture&gt;</code> <u>imagen</u> </summary>
-          <summary><code>&lt;portal&gt;</code> <u>habilita incrustar htmls en otra pag </u> </summary>
-          <summary><code>&lt;source&gt;</code> <u>recursos multimedia <code>&lt;picture&gt;</code>, <code>&lt;audio&gt;</code> o <code>&lt;video&gt;</code> </u> </summary>
+          <summary><code>&lt;embed&gt;</code> plug-in </summary>
+          <summary><code>&lt;iframe&gt;</code> Secciones o contenidos </summary>
+          <summary><code>&lt;object&gt;</code> Secciones o contenidos </summary>
+          <summary><code>&lt;picture&gt;</code> Secciones o contenidos </summary>
+          <summary><code>&lt;portal&gt;</code> habilita incrustar htmls en otra pag  </summary>
+          <summary><code>&lt;source&gt;</code> recursos multimedia <code>&lt;picture&gt;</code>, <code>&lt;audio&gt;</code> o <code>&lt;video&gt;</code>  </summary>
         </ul>
       </details>
     </li> <hr>
@@ -224,16 +227,16 @@
   <details>
     <summary>Tablas</summary> datos tabulados
     <ul>
-      <summary><code>&lt;caption&gt;</code> <u>Secciones o contenidos</u> </summary>
-      <summary><code>&lt;col&gt;</code> <u>Secciones o contenidos</u> </summary>
-      <summary><code>&lt;colgrup&gt;</code> <u>Secciones o contenidos</u> </summary>
-      <summary><code>&lt;table&gt;</code> <u>Secciones o contenidos</u> </summary>
-      <summary><code>&lt;tbody&gt;</code> <u>Secciones o contenidos</u> </summary>
-      <summary><code>&lt;td&gt;</code> <u>Secciones o contenidos</u> </summary>
-      <summary><code>&lt;tfoot&gt;</code> <u>Secciones o contenidos</u> </summary>
-      <summary><code>&lt;th&gt;</code> <u>encabezados</u> </summary>
-      <summary><code>&lt;thead&gt;</code> <u>encabezados de las filas </u> </summary>
-      <summary><code>&lt;tr&gt;</code> <u>Secciones o contenidos</u> </summary>
+      <summary><code>&lt;caption&gt;</code> Se utiliza para agregar un titulo a la tabla puede estar aariba o abajo segun el style se defina. </summary>
+      <summary><code>&lt;col&gt;</code> define propiedades de estilo y da la col </summary>
+      <summary><code>&lt;colgrup&gt;</code> agrupa una o mas colomnas </summary>
+      <summary><code>&lt;table&gt;</code> tah que contiene la tabla </summary>
+      <summary><code>&lt;tbody&gt;</code> agrupa una tabla en su cuerpo </summary>
+      <summary><code>&lt;td&gt;</code> celdas  </summary>
+      <summary><code>&lt;tfoot&gt;</code> pie de pagina de la tabla.  </summary>
+      <summary><code>&lt;th&gt;</code> encabezado de la columna  </summary>
+      <summary><code>&lt;thead&gt;</code> encabezados de columna o fila en la table </summary>
+      <summary><code>&lt;tr&gt;</code> fila en la table </summary>
     </ul>
   </details>
 </li> <hr>
@@ -294,6 +297,10 @@
   </details>
 </li> <hr>
 <!-- SALTO-->
+
+</ul>
+
+
 
   </ol>
 
