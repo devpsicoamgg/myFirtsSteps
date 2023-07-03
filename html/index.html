@@ -23,23 +23,48 @@
   <p>
     HTML significa Lenguaje de Marcas de Hipertexto, del inglés HyperText Markup Language.
     Está constituido por tags o etiquetas que son las que muestran todo el contenido, es como el esqueleto.
-    <br> <br>
+    <br> 
+    <img src="./img/tableHtml.png" width=30%  />
+    <br>
     Segun MDN los tags se agrupan en estos quince (15) subgrupos:
   </p>
   <ol>
     <li>
       <details> 
-        <summary> Raiz principal </summary> Lo que va en la linea 1 y 2
+        <summary>
+          Raiz principal ➡️ <code> &lt;!DOCTYPE html&gt; </code> - <code>&lt;html lang="es"&gt;</code>
+      
+
+        </summary> Lo que va en la linea 1 y 2
         <ul>
           <li> 
-            <summary> <mark> <code> &lt;!DOCTYPE html&gt; </code></mark> El elemento HTML (o elemento HTML raiz) representa la raiz de un documento HTML. El resto de elementos descienden de este elemento. </summary> <br>
-            <summary><mark><code>&lt;html lang="es"&gt;</code></mark> Tema de lenguaje, no ha de ir en metadatos sino abajo de la etiqueta HTML</summary>
+            <summary> <mark> <code> &lt;!DOCTYPE html&gt; </code> </mark> El elemento HTML (o elemento HTML raiz) representa la raiz de un documento HTML. El resto de elementos descienden de este elemento. </summary> <br>
+            <summary> <mark> <code>&lt;html lang="es"&gt;</code> </mark> Tema de lenguaje, no ha de ir en metadatos sino abajo de la etiqueta HTML</summary>
       </details>
     </li> <hr>
     <!-- SALTO -->
     <li>
       <details>
-        <summary> Metadatos del documento </summary> ninguna que se marque como meta va con /, en la sección meta no
+        <summary> 
+          <button onclick="openDialog()">02-. Metadatod del Doc </button> 
+          <dialog id="myDialog">
+            <h2>Tags Raiz Pcpal </h2>
+            <p>  <code> &lt;!DOCTYPE html&gt; </code> </p> <hr>
+            <p>  <code>&lt;html lang="es"&gt;</code> </p>
+            <button onclick="closeDialog()"> CERRAR ⛔</button>
+          </dialog>
+          <script>
+            function openDialog() {
+              var dialog = document.getElementById("myDialog");
+              dialog.showModal();
+            }
+            function closeDialog() {
+              var dialog = document.getElementById("myDialog");
+              dialog.close();
+            }
+          </script>
+        
+        </summary> ninguna que se marque como meta va con /, en la sección meta no
         solo van datos meta sino otros.
         <ul>
           <li>
@@ -130,7 +155,7 @@
         <ul>
           <summary><code>&lt;a&gt;</code> enlaces a otras pags href para el source para abrir en nueva  pesataña < a href = " bbbb" => , con target ="_blanck", rel="nofollow" para sitios no relacionados, si dentro dejas una img te hace la img como hipervinculo. <br>
           Para hacer navegación interna, emoji 😉 o texto. tabla para asociar los items a a donde ir se debe dar nombre como id, no agenos al ingles ni espacios a href = "lugar#ADondeVa". <br>  
-          con css agregado al html scroll-behavior: smooth hace que se vea más fluido el desplazamiento y no como si apareciera
+          con css agregado al html scroll-behavior: smooth hace que se vea más fluido el desplazamiento y no como si apareciera. Con mailto: , o whatsapp tel: 
         </summary> <br>
           <summary><code>&lt;abbr&gt;</code> abrebiaciones </summary> <br>
           <summary><code>&lt;b&gt;</code> Negrita <b>NEGRITA ASÍ </b> </summary> <br>
@@ -168,21 +193,12 @@
       <details>
         <summary>Imagen y multimedia </summary> XXXXXXXXXXX
         <ul>
-<<<<<<< HEAD
           <summary><code>&lt;area&gt;</code> <u>Secciones o contenidos</u> </summary>
           <summary><code>&lt;audio&gt;</code> <u>Secciones o contenidos</u> </summary>
           <summary><code>&lt;img&gt;</code> <u> en un solo tag < img src=" alt=texto descriptivo acepta formartos png, svg, etc. LOs estilos recomendado desde CSS </u> </summary>
           <summary><code>&lt;map&gt;</code> <u>Secciones o contenidos</u> </summary>
           <summary><code>&lt;track&gt;</code> <u>Secciones o contenidos</u> </summary>
           <summary><code>&lt;video&gt;</code> <u>Secciones o contenidos</u> </summary>
-=======
-          <summary><code>&lt;area&gt;</code> Secciones o contenidos  </summary> <br>
-          <summary><code>&lt;audio&gt;</code> Secciones o contenidos  </summary> <br>
-          <summary><code>&lt;img&gt;</code> Tiene atributo source y alt como msj alterno, tamaño y otros. y Source como ruta. Formatos png, gif, svg (logos), jpgn.   </summary> <br>
-          <summary><code>&lt;map&gt;</code> Secciones o contenidos  </summary> <br>
-          <summary><code>&lt;track&gt;</code> Secciones o contenidos  </summary> <br>
-          <summary><code>&lt;video&gt;</code> Secciones o contenidos </summary> <br>
->>>>>>> 47181f91445f954812c991bd5719e75adb0a874c
         </ul>
       </details>
     </li> <hr>
@@ -191,21 +207,12 @@
       <details>
         <summary>Contenido Incrustado</summary> XXXXXXXXXXX
         <ul>
-<<<<<<< HEAD
           <summary><code>&lt;embed&gt;</code> plug-in </summary>
           <summary><code>&lt;iframe&gt;</code> Secciones o contenidos </summary>
           <summary><code>&lt;object&gt;</code> Secciones o contenidos </summary>
           <summary><code>&lt;picture&gt;</code> Secciones o contenidos </summary>
           <summary><code>&lt;portal&gt;</code> habilita incrustar htmls en otra pag  </summary>
           <summary><code>&lt;source&gt;</code> recursos multimedia <code>&lt;picture&gt;</code>, <code>&lt;audio&gt;</code> o <code>&lt;video&gt;</code>  </summary>
-=======
-          <summary><code>&lt;embed&gt;</code> plug-in </summary> <br>
-          <summary><code>&lt;iframe&gt;</code> Secciones o contenidos </summary> <br>
-          <summary><code>&lt;object&gt;</code> Secciones o contenidos </summary> <br>
-          <summary><code>&lt;picture&gt;</code> imagen </summary> <br>
-          <summary><code>&lt;portal&gt;</code> habilita incrustar htmls en otra pag  </summary> <br>
-          <summary><code>&lt;source&gt;</code> recursos multimedia <code>&lt;picture&gt;</code>, <code>&lt;audio&gt;</code> o <code>&lt;video&gt;</code>  </summary> <br>
->>>>>>> 47181f91445f954812c991bd5719e75adb0a874c
         </ul>
       </details>
     </li> <hr>
@@ -224,15 +231,9 @@
       <details>
         <summary>Scripting</summary> XXXXXXXXXXX
         <ul>
-<<<<<<< HEAD
           <summary><code>&lt;canvas&gt;</code> <u>dibujar graficos por secuencias </u> </summary>
           <summary><code>&lt;noscript&gt;</code> <u>Secciones o contenidos</u> </summary>
           <summary><code>&lt;script&gt;</code> <u>incrustar codigo ejecutable, puede ser js, se puede escribir como js en html mientras tengas la etiqueta script o por medio de enlazar html y js. apertura y cierre script src=/source </u> </summary>
-=======
-          <summary><code>&lt;canvas&gt;</code> dibujar graficos por secuencias  </summary> <br>
-          <summary><code>&lt;noscript&gt;</code> Secciones o contenidos </summary> <br>
-          <summary><code>&lt;script&gt;</code> incrustar codigo ejecutable, puede ser js, pueden se por importancion o directamente por el tag de script lo mejor es archivo aparte e importar. Script importar como src en acceso de ruta </summary> <br>
->>>>>>> 47181f91445f954812c991bd5719e75adb0a874c
         </ul>
       </details>
     </li> <hr>
@@ -291,9 +292,9 @@
   <details>
     <summary>Elementos Interactivos </summary> XXXXXXXXXXX
     <ul>
-      <summary><code>&lt;details&gt;</code> Un tipo de widget  </summary> <br>
+      <summary><code>&lt;details&gt;</code> Envuelve el acordeon   </summary> <br>
       <summary><code>&lt;dialog&gt;</code> Como tipo de caja de dialogo </summary> <br>
-      <summary><code>&lt;summary&gt;</code> ACORDEOON  </summary> <br>
+      <summary><code>&lt;summary&gt;</code> Titulo del acordeón  se agrega otro tag para el contenido </summary> <br>
     </ul>
   </details>
 </li> <hr>
@@ -314,6 +315,18 @@
   <details>
     <summary>Styles CSS en HTML 3 formas </summary> XXXXXXXXXXX
     <ul>
+      <summary> <b> dando atributos onclick="Alert" </b> No muy recomdable </summary> <br>
+      <summary> <b> En head se abre etiqueta style </b> LIBRERIAS se van marcando etiquetas por etiquetas pero marca todas las etiquetas </summary> <br>
+      <summary> <b> Mediente hoja CSS  </b> se enlaza en el head con tag link rel = "stylesheets" href="./DIR" </summary> <br>
+    </ul>
+  </details>
+</li> <hr>
+<!-- SALTO-->
+
+<li>
+  <details>
+    <summary>Eventos </summary> XXXXXXXXXXX
+    <ul>
       <summary> <b> dando atributos al tag style= </b> style = " color fondo, color letra, tamaño, tipo, fuente, alineación, epaciado, margen, para tags como NO MANERA MÁS EFICIENTE " </summary> <br>
       <summary> <b> En head se abre etiqueta style </b> LIBRERIAS se van marcando etiquetas por etiquetas pero marca todas las etiquetas </summary> <br>
       <summary> <b> Mediente hoja CSS  </b> se enlaza en el head con tag link rel = "stylesheets" href="./DIR" </summary> <br>
@@ -322,6 +335,30 @@
 </li> <hr>
 <!-- SALTO-->
 
+<button onclick="openDialog()">Abrir diálogo</button>
+<dialog id="myDialog">
+  <h2>Título del diálogo</h2>
+  <p>Contenido del diálogo...</p>
+  <button onclick="closeDialog()">Cerrar</button>
+</dialog>
+<script>
+  function openDialog() {
+    var dialog = document.getElementById("myDialog");
+    dialog.showModal();
+  }
+  function closeDialog() {
+    var dialog = document.getElementById("myDialog");
+    dialog.close();
+  }
+</script>
+
+
+
+
+
+
+
+<!-- FIN ⛔-->
 </ul>
 
 
