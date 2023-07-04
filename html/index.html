@@ -274,17 +274,14 @@
           <mark>|</mark> <code>&lt;video&gt;</code>
           <mark>|</mark>
 
-
-
-
         </summary>
         <ul>
           <summary> <b> <code>&lt;area&gt;</code> </b> <br> ???????????????  </summary> <br>
           <summary> <b> <code>&lt;audio&gt;</code> </b> <br> Por medio del atributo source se da la ruta pero debe tener el atributo controls para mostrarse. <br> <mark style="background-color: rgb(45, 234, 45)" > Autoplay </mark>  necesita permiso para que se reproduzca solo. <mark style="background-color: rgb(45, 234, 45)" >Loop</mark> para volver a reproducir. <mark style="background-color: rgb(45, 234, 45)" > muted </mark> silenciado,  <mark style="background-color: rgb(45, 234, 45)" >preloaded</mark> va a empezar a precargar para reproducir más rápido <br> <mark> <code>&lt;audio src="./audio.mp3" controls preload &gt; &lt;/audio &gt; preload </code>> </mark> <br> </code> <audio src=""  controls preload> </audio> </summary> <br>
-          <summary> <b><code>&lt;img&gt;</code>  </b> <br> en un solo tag < img src=" alt=texto descriptivo acepta formartos png, svg, etc. LOs estilos recomendado desde CSS </u> </summary> <br>
+          <summary> <b><code>&lt;img&gt;</code>  </b> <br> en un solo tag < img src=" alt=texto descriptivo acepta formartos png, svg, etc. Los estilos recomendado desde CSS </u> </summary> <br>
           <summary> <b> <code>&lt;map&gt;</code> </b> <br> ??????????????? </summary> <br>
           <summary> <b> <code>&lt;track&gt;</code> </b> <br> ??????????????? </summary> <br>
-          <summary> <b> <code>&lt;video&gt;</code> </b> <br> Por medio del atributo source se da la ruta pero debe tener el atributo controls para mostrarse. <br> <mark style="background-color: rgb(45, 234, 45)" > Autoplay </mark>  necesita permiso para que se reproduzca solo. <mark style="background-color: rgb(45, 234, 45)" >Loop</mark> para volver a reproducir. <mark style="background-color: rgb(45, 234, 45)" > muted </mark> silenciado,  <mark style="background-color: rgb(45, 234, 45)" >preloaded</mark> va a empezar a precargar para reproducir más rápido <br> <mark> <code>&lt;video src="./<b>video.mp4"</b> controls preload poster="./"&gt; &lt;/video &gt; </code> </mark> <br> </code> <video src=""  controls preload> </video> </summary> <br>
+          <summary> <b> <code>&lt;video&gt;</code> </b> <br> Por medio del atributo source se da la ruta pero debe tener el atributo controls para mostrarse. <br> <mark style="background-color: rgb(45, 234, 45)" > Autoplay </mark>  necesita permiso para que se reproduzca solo. <mark style="background-color: rgb(45, 234, 45)" >Loop</mark> para volver a reproducir. <mark style="background-color: rgb(45, 234, 45)" > muted </mark> silenciado,  <mark style="background-color: rgb(45, 234, 45)" >preloaded</mark> va a empezar a precargar para reproducir más rápido <br> <mark> <code>&lt;video src="./<b>video.mp4"</b> controls preload poster="./ARREGLAR POR CSS"&gt; &lt;/video &gt; </code> </mark> <br> </code> <video src=""  controls preload> </video> </summary> <br>
         </ul>
       </details>
     </li> <hr>
@@ -303,7 +300,7 @@
         
         <ul>
         <br>  <summary> <b> <code>&lt;embed&gt;</code> </b> <br> plug-in </summary> <br> 
-          <summary> <b> <code>&lt;iframe&gt;</code> </b> <br> Secciones o contenidos </summary> <br> 
+          <summary> <b> <code>&lt;iframe&gt;</code> </b> <br> Un marco, ingresa otra pag en el navegador, youtube, pdfs, etc, no casi redes sociales <br> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63654.152374169564!2d-74.38432945000001!3d4.33870455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f04f7770f3b97%3A0x90b173ecbe09c570!2sFusagasug%C3%A1%2C%20Cundinamarca!5e0!3m2!1ses!2sco!4v1688433929328!5m2!1ses!2sco" width=60% height=20% style="border:1;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> </summary> <br>  
           <summary> <b> <code>&lt;object&gt;</code> </b> <br> Secciones o contenidos </summary> <br> 
           <summary> <b> <code>&lt;picture&gt;</code> </b> <br> Secciones o contenidos </summary> <br> 
           <summary> <b> <code>&lt;portal&gt;</code> </b> <br> Habilita incrustar htmls en otra pag  </summary> <br> 
@@ -410,13 +407,30 @@
       <mark>|</mark>
 
 
-    </summary> Crear formularios 
+    </summary> Crear formularios, valores como autocompletar el formulario, 
     <ul>
       <summary><b><code>&lt;button&gt;</code> </b> <br>  Un boton <button> ESTE </button>   </summary>
       <summary><b><code>&lt;datalist&gt;</code> </b> <br> Contiene elementos, opciones  </summary>
       <summary><b><code>&lt;fielset&gt;</code> </b> <br> Secciones o contenidos  </summary>
       <summary><b><code>&lt;form&gt;</code> </b> <br> la que contiene controles activos  </summary>
-      <summary><b><code>&lt;imput&gt;</code> </b> <br> Controles interactivos de formulario  </summary>
+      <summary><b><code>&lt;input&gt;</code> </b> <br> Controles interactivos de formulario. < imput así: <br> 
+      <samll>
+        text  <input type="text"> <br> 
+        checkbox  <input type="checkbox"> <br> 
+        radio  <input type="radio"> <br>  
+        date  <input type="date"> <br> 
+        submit  <input type="submit"> <br> 
+        search  <input type="search"> <br> 
+        reset  <input type="reset"> <br> 
+        file  <input type="file"> <br> 
+        email  <input type="email"> <br> 
+        color  <input type="color"> <br>
+        password  <input type="password"> <br>
+        range  <input type="range"> <br>
+        button  <input type="button" value ="este"> <br> 
+      </samll>
+      
+      </summary>
       <summary><b><code>&lt;label&gt;</code> </b> <br> Secciones o contenidos  </summary>
       <summary><b><code>&lt;legend&gt;</code> </b> <br> Secciones o contenidos  </summary>
       <summary><b><code>&lt;meter&gt;</code> </b> <br> escala dentro de un rango  </summary>
